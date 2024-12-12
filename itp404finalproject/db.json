@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Joseph Caluya"
+    },
+    {
+      "id": 2,
+      "name": "Mark Lee"
+    },
+    {
+      "name": "John Smith",
+      "id": 3
+    },
+    {
+      "name": "Hello Kitty",
+      "id": 4
+    },
+    {
+      "name": "Jake Sim",
+      "id": 5
+    },
+    {
+      "name": "Princess Daisy",
+      "id": 6
+    },
+    {
+      "name": "Rilakkuma",
+      "id": 7
+    },
+    {
+      "name": "Test Run",
+      "id": 8
+    }
+  ],
+  "destinations": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Paris, France",
+      "attraction": "Eiffel Tower"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Tokyo, Japan",
+      "attraction": "Tokyo Tower"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "name": "Seoul, South Korea",
+      "attraction": "Grand Hyatt Seoul"
+    },
+    {
+      "userId": 3,
+      "name": "Las Vegas, NV",
+      "attraction": "Bellagio",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "Los Angeles, CA",
+      "attraction": "Hollywood Sign",
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "name": "Hong Kong",
+      "attraction": "Hong Kong Disneyland",
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "name": "Sydney, Australia",
+      "attraction": "Opera House",
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "name": "Hollywood",
+      "attraction": "Nintendo World",
+      "id": 8
+    },
+    {
+      "userId": 7,
+      "name": "Osaka, Japan",
+      "attraction": "Kyocera Dome",
+      "id": 9
+    },
+    {
+      "userId": 8,
+      "name": "Los Angeles, CA",
+      "attraction": "Universal Studios",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "name": "Anaheim, CA",
+      "attraction": "Disneyland",
+      "id": 11
+    }
+  ],
+  "entries": [
+    {
+      "id": 2,
+      "destinationId": 2,
+      "userId": 2,
+      "attractionType": "Landmark/Cultural",
+      "title": "Tokyo Lights",
+      "description": "Tokyo Tower looks amazing at night.",
+      "photo": "https://www.datocms-assets.com/101439/1698369973-tokyo-tower.png?auto=format&fit=crop&h=800&w=1200",
+      "coordinates": {
+        "latitude": 35.6895,
+        "longitude": 139.6917
+      }
+    },
+    {
+      "id": 3,
+      "destinationId": 3,
+      "userId": 1,
+      "attractionType": "Lodging",
+      "title": "Arriving in Seoul",
+      "description": "Just checked in at my home in Seoul for the next 3 weeks!",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/326510581.jpg?k=6e9fa48de842c718f372d90a8e3d08af0e0b0f19a068f84f8348869e64185c39&o=&hp=1",
+      "coordinates": {
+        "latitude": 37.5503,
+        "longitude": 126.9971
+      }
+    },
+    {
+      "userId": 4,
+      "destinationId": 6,
+      "attractionType": "entertainment",
+      "title": "Exploring Hong Kong Disneyland!",
+      "description": "Took a day to walk around a theme park I've been wanting to see :)",
+      "coordinates": {
+        "latitude": 34.0250798,
+        "longitude": -118.2954715
+      },
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjCnUXozpNYVhY1_UKiDF9jcyeoyoTWjUBDw&s",
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "destinationId": 8,
+      "attractionType": "entertainment",
+      "title": "Saw Me and My Friends at Nintendo World!",
+      "description": "I had so much fun seeing our video game come to life!",
+      "coordinates": {
+        "latitude": 34.0250829,
+        "longitude": -118.2954704
+      },
+      "photo": "https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,w_1200/ncom/en_US/articles/2023/super-nintendo-world-at-universal-studios-hollywood-is-officially-open-so-lets-a-go/smw",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "destinationId": 5,
+      "attractionType": "landmark",
+      "title": "Went to See the Hollywood Sign",
+      "description": "Nothing exciting, really. Kinda creepy even.",
+      "coordinates": {
+        "latitude": 34.0250718,
+        "longitude": -118.2954765
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/1200px-Hollywood_Sign_%28Zuschnitt%29.jpg",
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "destinationId": 10,
+      "attractionType": "entertainment",
+      "title": "Visited Universal Studios for the First Time",
+      "description": "Rode many rides and waited in line for a long time.",
+      "coordinates": {
+        "latitude": 34.0250907,
+        "longitude": -118.295478
+      },
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSreuQ_LLkocKDUVercsHYcbh06Qk5sOyDnOA&s",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "destinationId": 11,
+      "attractionType": "entertainment",
+      "title": "Visited Disneyland for the First Time",
+      "description": "Went on Space Mountain and loved it.",
+      "coordinates": {
+        "latitude": 34.0250732,
+        "longitude": -118.2954786
+      },
+      "photo": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1349/464/75/dam/disneyland/attractions/disneyland/sleeping-beauty-castle-walkthrough/sleeping-beauty-castle-exterior-16x9.jpg?1731716456269",
+      "id": 9
+    }
+  ],
+  "favorites": [
+    {
+      "id": 2,
+      "userId": 1,
+      "entryId": 3,
+      "favoritedAt": "2024-12-02T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "entryId": 4,
+      "favoritedAt": "2024-12-10T13:54:47.267Z"
+    },
+    {
+      "entryId": 2,
+      "userId": 2,
+      "favoritedAt": "2024-12-11T03:21:16.504Z",
+      "id": 4
+    },
+    {
+      "entryId": 6,
+      "userId": 6,
+      "favoritedAt": "2024-12-11T06:27:26.980Z",
+      "id": 5
+    }
+  ],
+  "dislikes": [
+    {
+      "entryId": 8,
+      "userId": 8,
+      "id": 4
+    }
+  ]
+}
